@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D32725351AF0D3B500A0FACA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D32725341AF0D3B500A0FACA /* main.m */; };
+		D32725381AF0D3B500A0FACA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D32725371AF0D3B500A0FACA /* AppDelegate.m */; };
+		D327253B1AF0D3B500A0FACA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D327253A1AF0D3B500A0FACA /* ViewController.m */; };
+		D327253E1AF0D3B500A0FACA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D327253C1AF0D3B500A0FACA /* Main.storyboard */; };
+		D32725401AF0D3B500A0FACA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D327253F1AF0D3B500A0FACA /* Images.xcassets */; };
+		D32725431AF0D3B500A0FACA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D32725411AF0D3B500A0FACA /* LaunchScreen.xib */; };
+		D327254F1AF0D3B500A0FACA /* aliPayDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D327254E1AF0D3B500A0FACA /* aliPayDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D32725491AF0D3B500A0FACA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D32725271AF0D3B500A0FACA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D327252E1AF0D3B500A0FACA;
+			remoteInfo = aliPayDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D327252F1AF0D3B500A0FACA /* aliPayDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aliPayDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D32725331AF0D3B500A0FACA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D32725341AF0D3B500A0FACA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D32725361AF0D3B500A0FACA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D32725371AF0D3B500A0FACA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D32725391AF0D3B500A0FACA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D327253A1AF0D3B500A0FACA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D327253D1AF0D3B500A0FACA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D327253F1AF0D3B500A0FACA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D32725421AF0D3B500A0FACA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D32725481AF0D3B500A0FACA /* aliPayDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aliPayDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D327254D1AF0D3B500A0FACA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D327254E1AF0D3B500A0FACA /* aliPayDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = aliPayDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D327252C1AF0D3B500A0FACA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D32725451AF0D3B500A0FACA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D32725261AF0D3B500A0FACA = {
+			isa = PBXGroup;
+			children = (
+				D32725311AF0D3B500A0FACA /* aliPayDemo */,
+				D327254B1AF0D3B500A0FACA /* aliPayDemoTests */,
+				D32725301AF0D3B500A0FACA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D32725301AF0D3B500A0FACA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D327252F1AF0D3B500A0FACA /* aliPayDemo.app */,
+				D32725481AF0D3B500A0FACA /* aliPayDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D32725311AF0D3B500A0FACA /* aliPayDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D32725361AF0D3B500A0FACA /* AppDelegate.h */,
+				D32725371AF0D3B500A0FACA /* AppDelegate.m */,
+				D32725391AF0D3B500A0FACA /* ViewController.h */,
+				D327253A1AF0D3B500A0FACA /* ViewController.m */,
+				D327253C1AF0D3B500A0FACA /* Main.storyboard */,
+				D327253F1AF0D3B500A0FACA /* Images.xcassets */,
+				D32725411AF0D3B500A0FACA /* LaunchScreen.xib */,
+				D32725321AF0D3B500A0FACA /* Supporting Files */,
+			);
+			path = aliPayDemo;
+			sourceTree = "<group>";
+		};
+		D32725321AF0D3B500A0FACA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D32725331AF0D3B500A0FACA /* Info.plist */,
+				D32725341AF0D3B500A0FACA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D327254B1AF0D3B500A0FACA /* aliPayDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D327254E1AF0D3B500A0FACA /* aliPayDemoTests.m */,
+				D327254C1AF0D3B500A0FACA /* Supporting Files */,
+			);
+			path = aliPayDemoTests;
+			sourceTree = "<group>";
+		};
+		D327254C1AF0D3B500A0FACA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D327254D1AF0D3B500A0FACA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D327252E1AF0D3B500A0FACA /* aliPayDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D32725521AF0D3B500A0FACA /* Build configuration list for PBXNativeTarget "aliPayDemo" */;
+			buildPhases = (
+				D327252B1AF0D3B500A0FACA /* Sources */,
+				D327252C1AF0D3B500A0FACA /* Frameworks */,
+				D327252D1AF0D3B500A0FACA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = aliPayDemo;
+			productName = aliPayDemo;
+			productReference = D327252F1AF0D3B500A0FACA /* aliPayDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D32725471AF0D3B500A0FACA /* aliPayDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D32725551AF0D3B600A0FACA /* Build configuration list for PBXNativeTarget "aliPayDemoTests" */;
+			buildPhases = (
+				D32725441AF0D3B500A0FACA /* Sources */,
+				D32725451AF0D3B500A0FACA /* Frameworks */,
+				D32725461AF0D3B500A0FACA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D327254A1AF0D3B500A0FACA /* PBXTargetDependency */,
+			);
+			name = aliPayDemoTests;
+			productName = aliPayDemoTests;
+			productReference = D32725481AF0D3B500A0FACA /* aliPayDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D32725271AF0D3B500A0FACA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Hand;
+				TargetAttributes = {
+					D327252E1AF0D3B500A0FACA = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					D32725471AF0D3B500A0FACA = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = D327252E1AF0D3B500A0FACA;
+					};
+				};
+			};
+			buildConfigurationList = D327252A1AF0D3B500A0FACA /* Build configuration list for PBXProject "aliPayDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D32725261AF0D3B500A0FACA;
+			productRefGroup = D32725301AF0D3B500A0FACA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D327252E1AF0D3B500A0FACA /* aliPayDemo */,
+				D32725471AF0D3B500A0FACA /* aliPayDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D327252D1AF0D3B500A0FACA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D327253E1AF0D3B500A0FACA /* Main.storyboard in Resources */,
+				D32725431AF0D3B500A0FACA /* LaunchScreen.xib in Resources */,
+				D32725401AF0D3B500A0FACA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D32725461AF0D3B500A0FACA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D327252B1AF0D3B500A0FACA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D327253B1AF0D3B500A0FACA /* ViewController.m in Sources */,
+				D32725381AF0D3B500A0FACA /* AppDelegate.m in Sources */,
+				D32725351AF0D3B500A0FACA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D32725441AF0D3B500A0FACA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D327254F1AF0D3B500A0FACA /* aliPayDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D327254A1AF0D3B500A0FACA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D327252E1AF0D3B500A0FACA /* aliPayDemo */;
+			targetProxy = D32725491AF0D3B500A0FACA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D327253C1AF0D3B500A0FACA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D327253D1AF0D3B500A0FACA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D32725411AF0D3B500A0FACA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D32725421AF0D3B500A0FACA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D32725501AF0D3B500A0FACA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D32725511AF0D3B500A0FACA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D32725531AF0D3B500A0FACA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = aliPayDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D32725541AF0D3B500A0FACA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = aliPayDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D32725561AF0D3B600A0FACA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = aliPayDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aliPayDemo.app/aliPayDemo";
+			};
+			name = Debug;
+		};
+		D32725571AF0D3B600A0FACA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = aliPayDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aliPayDemo.app/aliPayDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D327252A1AF0D3B500A0FACA /* Build configuration list for PBXProject "aliPayDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D32725501AF0D3B500A0FACA /* Debug */,
+				D32725511AF0D3B500A0FACA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D32725521AF0D3B500A0FACA /* Build configuration list for PBXNativeTarget "aliPayDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D32725531AF0D3B500A0FACA /* Debug */,
+				D32725541AF0D3B500A0FACA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D32725551AF0D3B600A0FACA /* Build configuration list for PBXNativeTarget "aliPayDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D32725561AF0D3B600A0FACA /* Debug */,
+				D32725571AF0D3B600A0FACA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D32725271AF0D3B500A0FACA /* Project object */;
+}
