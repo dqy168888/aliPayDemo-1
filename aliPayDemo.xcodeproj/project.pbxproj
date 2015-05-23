@@ -14,6 +14,10 @@
 		D32725401AF0D3B500A0FACA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D327253F1AF0D3B500A0FACA /* Images.xcassets */; };
 		D32725431AF0D3B500A0FACA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D32725411AF0D3B500A0FACA /* LaunchScreen.xib */; };
 		D327254F1AF0D3B500A0FACA /* aliPayDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D327254E1AF0D3B500A0FACA /* aliPayDemoTests.m */; };
+		D32725CF1AF0D81D00A0FACA /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D32725CB1AF0D81D00A0FACA /* AlipaySDK.bundle */; };
+		D32725D11AF0D81D00A0FACA /* Order.m in Sources */ = {isa = PBXBuildFile; fileRef = D32725CE1AF0D81D00A0FACA /* Order.m */; };
+		D32725D31AF0D8A400A0FACA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D32725D21AF0D8A400A0FACA /* SystemConfiguration.framework */; };
+		D32726401AF0DC1A00A0FACA /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D327263F1AF0DC1A00A0FACA /* libz.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,11 @@
 		D32725481AF0D3B500A0FACA /* aliPayDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aliPayDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D327254D1AF0D3B500A0FACA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D327254E1AF0D3B500A0FACA /* aliPayDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = aliPayDemoTests.m; sourceTree = "<group>"; };
+		D32725CB1AF0D81D00A0FACA /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
+		D32725CD1AF0D81D00A0FACA /* Order.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Order.h; path = ../aliPayFile/Order.h; sourceTree = "<group>"; };
+		D32725CE1AF0D81D00A0FACA /* Order.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Order.m; path = ../aliPayFile/Order.m; sourceTree = "<group>"; };
+		D32725D21AF0D8A400A0FACA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		D327263F1AF0DC1A00A0FACA /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +56,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D32726401AF0DC1A00A0FACA /* libz.dylib in Frameworks */,
+				D32725D31AF0D8A400A0FACA /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +74,8 @@
 		D32725261AF0D3B500A0FACA = {
 			isa = PBXGroup;
 			children = (
+				D32725D41AF0D8AF00A0FACA /* FrameWorks */,
+				D32725CA1AF0D81D00A0FACA /* aliPayFile */,
 				D32725311AF0D3B500A0FACA /* aliPayDemo */,
 				D327254B1AF0D3B500A0FACA /* aliPayDemoTests */,
 				D32725301AF0D3B500A0FACA /* Products */,
@@ -81,6 +94,8 @@
 		D32725311AF0D3B500A0FACA /* aliPayDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D32725CD1AF0D81D00A0FACA /* Order.h */,
+				D32725CE1AF0D81D00A0FACA /* Order.m */,
 				D32725361AF0D3B500A0FACA /* AppDelegate.h */,
 				D32725371AF0D3B500A0FACA /* AppDelegate.m */,
 				D32725391AF0D3B500A0FACA /* ViewController.h */,
@@ -117,6 +132,23 @@
 				D327254D1AF0D3B500A0FACA /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D32725CA1AF0D81D00A0FACA /* aliPayFile */ = {
+			isa = PBXGroup;
+			children = (
+				D32725CB1AF0D81D00A0FACA /* AlipaySDK.bundle */,
+			);
+			path = aliPayFile;
+			sourceTree = "<group>";
+		};
+		D32725D41AF0D8AF00A0FACA /* FrameWorks */ = {
+			isa = PBXGroup;
+			children = (
+				D327263F1AF0DC1A00A0FACA /* libz.dylib */,
+				D32725D21AF0D8A400A0FACA /* SystemConfiguration.framework */,
+			);
+			name = FrameWorks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +233,7 @@
 			files = (
 				D327253E1AF0D3B500A0FACA /* Main.storyboard in Resources */,
 				D32725431AF0D3B500A0FACA /* LaunchScreen.xib in Resources */,
+				D32725CF1AF0D81D00A0FACA /* AlipaySDK.bundle in Resources */,
 				D32725401AF0D3B500A0FACA /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,6 +254,7 @@
 			files = (
 				D327253B1AF0D3B500A0FACA /* ViewController.m in Sources */,
 				D32725381AF0D3B500A0FACA /* AppDelegate.m in Sources */,
+				D32725D11AF0D81D00A0FACA /* Order.m in Sources */,
 				D32725351AF0D3B500A0FACA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,8 +381,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/aliPayFile",
+				);
 				INFOPLIST_FILE = aliPayDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/aliPayFile",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -357,8 +401,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/aliPayFile",
+				);
 				INFOPLIST_FILE = aliPayDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/aliPayFile",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -416,6 +470,7 @@
 				D32725541AF0D3B500A0FACA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D32725551AF0D3B600A0FACA /* Build configuration list for PBXNativeTarget "aliPayDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +479,7 @@
 				D32725571AF0D3B600A0FACA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -10,6 +10,7 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)aliPayTest:(id)sender;
 
 @end
 
